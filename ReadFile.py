@@ -9,6 +9,8 @@ sheet = wb.get_sheet_by_name('Sheet1')
 
 row = []
 row_list = []
+#i represents the number of rows to be read
+#j represents the number of cols to be read
 for i in range(2,101):
     row = []
     for j in range(1,4):
